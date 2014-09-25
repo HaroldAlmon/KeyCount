@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Key Counts</title>
+</head>
+<body>
+<textarea id="textarea" rows="10" cols="40" autofocus="autofocus" >
+John,2
+Jane,3
+John,4
+Jane,5
+Fred,98NotValidNumber
+test,badNumberFormat
+4.5.2.6.7
+bob,3,tooManyTokens
+tooFewTokens
+</textarea><br><br>
+<button onclick="keyCounts()">Calculate Key Counts</button>
+<div id="result"></div>
+<script src="keyCounts.js" type="text/javascript"></script>
+</body>
+</html>
